@@ -1,0 +1,65 @@
+
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <div class="left-section" [style.--left-color]="leftSectionColor">
+    <div class = "left-content">
+      <img [src]="websiteLogo" alt="Logo" class="logo">
+      
+      <h1>{{loginMessage}}</h1>
+      <h2>{{subMessage}}</h2>
+
+      <div class="login-buttons">
+        <app-login-button [textButton] = "textButton1" [iconSrc] = "iconSrc1"></app-login-button>
+        <app-login-button [textButton] = "textButton2" [iconSrc] = "iconSrc2"></app-login-button>
+      </div>
+
+      <div class="separator"><span>or</span> </div>
+
+
+      <div class="input-group">
+
+
+        <app-input-component [IconMaterialName] ="IconMaterial1" [placeHolder]="placeHolder1" [inputType]="inputType1"></app-input-component>
+        <app-input-component [IconMaterialName] ="IconMaterial2" [placeHolder]="placeHolder2" [inputType]="inputType2"></app-input-component>
+
+
+        <div class="form-footer">
+          <div class="checkbox-container" [style.--selectBoxColor]="selectBoxColor">
+              <input type="checkbox" id="remember">
+              <label for="remember">Remember me</label>
+          </div>
+          <a href="#" class="forgot-password" [style.--forgotPassColor]="forgotPassColor">Forgot Password?</a>
+      </div>
+
+      <button class="login-btn" [style.--LogButtonColor]="LogButtonColor" [style.--LogButtonHover]="LogButtonHover">Log in</button>
+
+      <div class="signup-text">
+        Don't have an account ? <a href="#" class="signup-link" [style.--createAccountColor]="createAccountColor">Create an account</a>
+      </div>
+
+      
+    </div>
+
+
+    </div>
+
+  </div>
+  <div class ="right-section" [style.--right-color]="rightSectionColor">
+
+    <div class = "right-content">
+      <img src ="assets/phoneImage.png">
+
+      <div class ="preview-text">
+        <h2>Reliable SMS Gateway</h2>
+        <h3>Ensure fast, secure, and reliable SMS delivery worldwide.</h3>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>
+</body>
