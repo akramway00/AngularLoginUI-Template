@@ -15,10 +15,10 @@ A modern and fully customizable login page interface built with Angular. This pr
 ## Preview
 
 ### Current Design
-![Login Page Preview](https://your-image-link-here.com)
+![Login Page Preview](default.png)
 
 ### Example of Customization
-![Custom Design Preview](https://your-image-link-here.com)
+![Custom Design Preview](customized.png)
 
 
 ## Getting Started
