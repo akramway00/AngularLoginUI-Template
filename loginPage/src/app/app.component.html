@@ -50,11 +50,11 @@
   <div class ="right-section" [style.--right-color]="rightSectionColor">
 
     <div class = "right-content">
-      <img src ="assets/phoneImage.png">
+      <img [src]="rightImage">
 
       <div class ="preview-text">
-        <h2>Reliable SMS Gateway</h2>
-        <h3>Ensure fast, secure, and reliable SMS delivery worldwide.</h3>
+        <h2>{{rightText}}</h2>
+        <h3>{{rightSubText}}</h3>
       </div>
 
     </div>

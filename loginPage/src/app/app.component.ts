@@ -10,11 +10,11 @@ export class AppComponent {
 
   // title and Logo of the website
   title = "";
-  websiteLogo = "assets/logoV1.png";
+  websiteLogo = "assets/logoV2.png";
   
 
   // Background Color (Right side and left side)
-  rightSectionColor = "#5a2e86";
+  rightSectionColor = "#0a4591";
   leftSectionColor = "#ffffff";
 
   // Text of title and subtitle
@@ -32,8 +32,8 @@ export class AppComponent {
 
   // Final Log in Button
   finalTextButton = "Log in";
-  LogButtonColor = "#5a2e86";
-  LogButtonHover = "#4a2570";
+  LogButtonColor = "#0a4591";
+  LogButtonHover = "#073065";
 
 
   //First Input
@@ -47,13 +47,17 @@ export class AppComponent {
   IconMaterial2 = "lock_outline";
 
   // Selectbox "Remember me"
-  selectBoxColor = "#5a2e86";
+  selectBoxColor = "#0a4591";
 
   // forgot Password Text
-  forgotPassColor = "#5a2e86";
+  forgotPassColor = "#0a4591";
 
   // create an Account text
-  createAccountColor = "#5a2e86";
+  createAccountColor = "#0a4591";
 
+  // image and text in the right side
+  rightImage = "assets/phoneImage2.png";
+  rightText = "Reliable SMS Gateway";
+  rightSubText = "Ensure fast, secure, and reliable SMS delivery worldwide.";
 
 }
